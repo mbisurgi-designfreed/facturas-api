@@ -1,0 +1,17 @@
+{
+  "name": "facturas-api",
+  "version": "1.0.0",
+  "description": "API aplicacion para control de facturas",
+  "main": "index.js",
+  "author": "Design Freed",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.1",
+    "passport-local": "^1.0.0"
+  }
+}
