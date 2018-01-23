@@ -55,6 +55,10 @@ const ClienteSchema = new Schema({
             validator: isEmail,
             message: '{VALUE} no es un email valido'
         }
+    },
+    user: {
+        type: mongoose.Schema.Types.ObjectId,
+        required: true
     }
 });
 
