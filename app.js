@@ -1,4 +1,5 @@
 const express = require('express');
+const cors = require('cors');
 const parser = require('body-parser');
 const mongoose = require('mongoose');
 
@@ -10,6 +11,7 @@ mongoose.connect(config.mongo.url);
 
 require('./config/passport/passport');
 
+app.use(cors());
 app.use(parser.json());
 app.use(parser.urlencoded({ extended: false }));
 
