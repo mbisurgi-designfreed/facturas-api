@@ -1,0 +1,12 @@
+[
+    {
+        "model": "user",
+        "documents": [{
+            "email": "mbisurgi@bc-group.com.ar",
+            "password": "maximati12"
+        }, {
+            "email": "cbisurgi@bc-group.com.ar",
+            "password": "maximati12"
+        }]
+    }
+]
